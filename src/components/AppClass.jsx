@@ -28,7 +28,7 @@ export default class AppClass extends Component {
         return (
             <div className="container w-2/5 lg:w-1/3 bg-white p-5 mx-auto border mt-5">
             <div className="todo-app">
-              <h2 className="text-2xl font-bold">Todo app</h2>
+              <h2 className="text-2xl font-bold">Todo app testing</h2>
               <form action="#">
                 <input
                   type="text"
