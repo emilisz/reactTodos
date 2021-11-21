@@ -1,24 +1,24 @@
-import { useState } from "react";
+// import { useState } from "react";
 import ".././App.css";
 
 function App() {
-  const [todos, setTodos] = useState([
-    {
-      id: 1,
-      title: "Finish Series",
-      isComplete: false,
-    },
-    {
-      id: 2,
-      title: "Watch Movie",
-      isComplete: false,
-    },
-    {
-      id: 1,
-      title: "Take over world",
-      isComplete: true,
-    },
-  ]);
+  // const [todos, setTodos] = useState([
+  //   {
+  //     id: 1,
+  //     title: "Finish Series",
+  //     isComplete: false,
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Watch Movie",
+  //     isComplete: false,
+  //   },
+  //   {
+  //     id: 1,
+  //     title: "Take over world",
+  //     isComplete: true,
+  //   },
+  // ]);
 
   return (
     <div className="container w-2/5 lg:w-1/3 bg-white p-5 mx-auto border mt-5">
@@ -33,13 +33,13 @@ function App() {
         </form>
 
         <div className="todo-tasks flex flex-col py-5">
-         {todos.map((todo, index) => (
+         {/* {todos.map((todo, index) => (
           <div className="item py-1">
             <input type="checkbox" className="m-1" name="" id="" />
             <span>{todo.title}</span>
             <button className="float-right">X</button>
           </div>
-         ))}
+         ))} */}
         </div>
 
         <hr />
